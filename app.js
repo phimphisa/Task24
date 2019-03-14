@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/data", (req, res) => {
-    res.json(model.data);
-})
+  res.json(model.data);
+});
 
 // redirect assets folder
 app.use('/assets', express.static(__dirname + '/assets'));
@@ -20,5 +20,5 @@ app.use('/assets', express.static(__dirname + '/assets'));
 app.listen(process.env.PORT || 8080);
 
 module.exports = {
-    app
-}
+  app
+};

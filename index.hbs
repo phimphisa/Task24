@@ -69,8 +69,49 @@
 
             <!-- -->
             <div class="col">
-                <p> {{firstName}} </p>
-                <p> {{title}} </p>
+                <div class="card -center">
+                    <div class="card-body">
+                        <h3 class=" font-weight-bold text-center">About me</h3>
+                    </div>
+                </div>
+                <p>Hello, and welcome to my electronic CV. My name is {{firstName}} {{lastName}}, and i am a {{title}}
+                    at {{experience.0.company}}.
+                    <br><br>
+                    Below you can see my education and experience:
+                </p>
+                <div class="card -center">
+                    <div class="card-body">
+                        <h3 class=" font-weight-bold text-center">Experience</h3>
+                    </div>
+                </div>
+                {{#each experience}}
+                <ul class="list-unstyled">
+                    <li><em>Title:</em> {{this.title}}</li>
+                    <li><em>Company:</em> {{this.company}}</li>
+                    <li><em>Location:</em> {{this.location}}</li>
+                    <li><em>Start Date:</em> {{this.startDate}}</li>
+                    <li><em>End Date:</em> {{this.endDate}}</li>
+                    <li><em>Description:</em> {{this.description}}</li>
+                    <hr>
+                </ul>
+                {{/each}}
+                <div class="card -center">
+                    <div class="card-body" style="padding:7px;">
+                        <h3 class=" font-weight-bold text-center">Education</h3>
+                    </div>
+                </div>
+                <p>
+                    {{#each education}}
+                    <ul class="list-unstyled">
+                        <li><em>School:</em> {{this.school}}</li>
+                        <li><em>Degree:</em> {{this.degree}}</li>
+                        <li><em>Field of Study:</em> {{this.fieldOfStudy}}</li>
+                        <li><em>Start Year:</em> {{this.startYear}}</li>
+                        <li><em>End Year:</em> {{this.endYear}}</li>
+                        <hr>
+                    </ul>
+                    {{/each}}
+                </p>
             </div>
             <!-- -->
 
@@ -86,10 +127,29 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
 
 <style>
+
+     .card {
+        border-width: 0.2rem;
+        border-color: black;
+        margin-bottom: 15px;
+        margin: 2.5%;
+    }
+
+    .card-body {
+        padding: 7px;
+    }
+
+    .list-unstyled {
+        text-align: center;
+    }
+
+    p {
+        margin-left: 10%;
+        margin-right: 10%
+    }
 
     #profilePic {
         width:30%; 
