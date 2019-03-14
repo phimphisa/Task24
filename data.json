@@ -3,11 +3,16 @@
   "lastName": "Notsoyolo",
   "birthday": "25.02.1992",
   "title": "Java Fullstack Developer",
+  "image": "http://www.suttonsilver.co.uk/wp-content/uploads/blog-harold-02.jpg",
+  "aboutMe": "Lorem ipsum dolor sit amet, an detracto omnesque offendit usu, ut timeam dissentiet vim, in sea possim labitur. Eum ei erant instructior, ei eum convenire delicatissimi. Ius paulo accusata persecuti at, pri ea liber delectus. Cu tota detracto insolens usu. Minim dolor quodsi ut quo. Ei eam commodo fabulas, pri ex exerci virtute, dicta diceret ei pri. Usu ei quaeque habemus efficiendi, admodum propriae assueverit eam an. At integre bonorum intellegat qui.",
 
   "contactInfo": {
     "tlf": "95303409",
     "email": "stianheimset@hotmail.com",
-    "linkedin": "www.linkedin.com/notsoyolo"
+    "links": {
+      "linkedin": "www.linkedin.com/notsoyolo",
+      "github": "www.github.com"
+    }
   },
 
   "experience": [
@@ -34,22 +39,13 @@
       "school": "Universitetet i Bergen",
       "degree": "Bachelor's Degree",
       "fieldOfStudy": "Drug Medicine",
-      "startYear": "01.08.2017",
-      "endYear": "06.06.2018"
+      "startYear": "2017",
+      "endYear": "2018",
+      "description": "produce drugs"
     }
   ],
 
-  "qualifications": [
-    "Java", 
-    "JavaScript", 
-    "Pet Dog"
-  ],
+  "qualifications": ["Java", "JavaScript", "Pet Dog"],
 
-  "interests": [
-    "Football", 
-    "Music", 
-    "Gaming", 
-    "Foods"
-  ]
-
+  "interests": ["Football", "Music", "Gaming", "Foods"]
 }

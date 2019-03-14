@@ -1,43 +1,45 @@
 .list-unstyled {
-    text-align: center;
+  text-align: center;
 }
 
 .p-right {
-    margin-left: 10%;
-    margin-right: 10%
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #profilePic {
-    width:30%; 
-    height:30%;
+  width: 60%;
+  height: 60%;
 }
 
 #col-left {
-    background-color:#4c4c4c;
+  background-color: #4c4c4c;
 }
 
-#col-right {
-
+#pen {
+  margin-top: 10rem;
+  width: 100%;
+  height: 50%;
 }
 
 .profile-custom {
-    background-color: #ffa501;
+  background-color: #ffa501;
 }
 
 .card-custom {
-    border-width: 0.1rem; 
-    margin: 2.5%;
+  border-width: 0.1rem;
+  margin: 2.5%;
 }
 
 .card-custom-left {
-    background-color: #4c4c4c;
-    border-color: white;
+  background-color: #4c4c4c;
+  border-color: white;
 }
 
 .card-custom-right {
-    border-color: #4c4c4c;
+  border-color: #4c4c4c;
 }
 
 .card-body-custom {
-    padding:5px;
+  padding: 5px;
 }
