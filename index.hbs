@@ -13,15 +13,67 @@
     <div class="container container-fluid">
 
         <div class="row">
-            <div class="col">
-                <h1>CV Resume</h1>
-                <p>Hei, Bobby</p>
+            <div id="firstCol" class="col">
+
+                <!-- INFO -->
+                <div class="col mt-4">
+                    <img id="profilePic" src="assets/profile1.jpg" alt="profile pic">
+                    <h1 class="text-warning"> {{firstName}} {{lastName}} </h1>
+                    <p class="text-white"> {{title}} </p>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="card card-custom">
+                    <div class="card-body card-body-custom">
+                        <h5 class="font-weight-bold text-center text-white">CONTACT</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="text-warning">Email</p>
+                    <p class="text-white">{{contactInfo.email}}</p>
+                    <p class="text-warning">Phone</p>
+                    <p class="text-white">{{contactInfo.tlf}}</p>
+                    <p class="text-warning">Web</p>
+                    <p class="text-white">{{contactInfo.linkedin}}</p>
+                </div>
+
+                <!-- QUALIFICATIONS -->
+                <div class="card card-custom">
+                    <div class="card-body card-body-custom">
+                        <h5 class="font-weight-bold text-center text-white">QUALIFICATIONS</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        {{#each qualifications}}
+                        <p class="badge badge-secondary">{{this}}</p>
+                        {{/each}}
+                    </div>
+                </div>
+
+                <!-- INTERESTS -->
+                <div class="card card-custom">
+                    <div class="card-body card-body-custom">
+                        <h5 class="font-weight-bold text-center text-white">INTERESTS</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        {{#each interests}}
+                        <p class="badge badge-secondary">{{this}}</p>
+                        {{/each}}
+                    </div>
+                </div>
 
             </div>
+
+            <!-- -->
             <div class="col">
                 <p> {{firstName}} </p>
                 <p> {{title}} </p>
             </div>
+            <!-- -->
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -36,3 +88,27 @@
 </body>
 
 </html>
+
+<style>
+
+    #profilePic {
+        width:30%; 
+        height:30%;
+    }
+
+    #firstCol {
+        background-color:#2a2831;
+    }
+
+    .card-custom {
+        border-width: 0.1rem; 
+        border-color: white;
+        margin: 2.5%;
+        background-color: #2a2831;
+    }
+
+    .card-body-custom {
+        padding:5px;
+    }
+
+</style>

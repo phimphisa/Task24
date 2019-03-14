@@ -13,7 +13,7 @@ function getTemplate(){
     let result = template(model.data);
 
     fs.writeFileSync(outFile, result);
-    console.log(result);
+    // console.log(result);
     console.log(`File written to ${outFile}`);
 }
 
