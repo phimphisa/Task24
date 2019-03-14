@@ -3,6 +3,9 @@ var app = express();
 var path = require("path");
 
 const model = require('./js/model.js');
+const view = require('./js/view.js');
+
+view.getTemplate();
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + "/index.html"));
