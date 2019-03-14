@@ -1,0 +1,16 @@
+{
+  "name": "task24",
+  "version": "1.0.0",
+  "description": "Task 24 CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stian & Phimphisa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
