@@ -1,48 +1,43 @@
 {
-    "firstName": "Stian Yolo",
-    "lastName" : "Coolguy",
-    "birthday": "25.02.1992",
-    "title": "Java Fullstack Developer",
+  "firstName": "Stian Notsoyolo",
+  "lastName": "Coolguy",
+  "birthday": "25.02.1992",
+  "title": "Java Fullstack Developer",
 
-    "contactInfo" : {
-        "tlf": "95303409",
-        "epost": "stianheimset@hotmail.com",
-        "linkedin" : "www.google.no"
+  "contactInfo": {
+    "tlf": "95303409",
+    "epost": "stianheimset@hotmail.com",
+    "linkedin": "www.google.no"
+  },
+
+  "experience": [
+    {
+      "title": "Java Fullstack Developer",
+      "company": "Experis Academy",
+      "location": "Oslo, Norway",
+      "startDate": "02.2019",
+      "endDate": "",
+      "description": "Very nice job"
     },
-    
-    "experience":[
-        {
-            "title": "Java Fullstack Developer",
-            "company": "Experis Academy",
-            "location": "Oslo, Norway",
-            "startDate": "02.2019",
-            "endDate": "",
-            "description": "Very nice job"
-        },
-        {
-            "title": "Programmer",
-            "company": "Exp Academy",
-            "location": "Oslo, Norway",
-            "startDate": "01.2015",
-            "endDate": "08.2015",
-            "description": "Very shite job"
-        }
-    ],
+    {
+      "title": "Programmer",
+      "company": "Exp Academy",
+      "location": "Oslo, Norway",
+      "startDate": "01.2015",
+      "endDate": "08.2015",
+      "description": "Very shite job"
+    }
+  ],
 
-    "education":[
-        {
-            "school": "Universitetet i Bergen",
-            "degree": "Bachelor's Degree",
-            "fieldOfStudy" : "Drug Medicine",
-            "startYear": "01.08.2017",
-            "endYear": "06.06.2018"
-        }
-    ],
+  "education": [
+    {
+      "school": "Universitetet i Bergen",
+      "degree": "Bachelor's Degree",
+      "fieldOfStudy": "Drug Medicine",
+      "startYear": "01.08.2017",
+      "endYear": "06.06.2018"
+    }
+  ],
 
-    "qualifications":[
-        "Java",
-        "JavaScript",
-        "Pet Dog"
-    ]
-
+  "qualifications": ["Java", "JavaScript", "Pet Dog"]
 }
