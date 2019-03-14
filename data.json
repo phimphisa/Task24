@@ -1,13 +1,13 @@
 {
   "firstName": "Stian",
-  "lastName": "Coolguy",
+  "lastName": "Notsoyolo",
   "birthday": "25.02.1992",
   "title": "Java Fullstack Developer",
 
   "contactInfo": {
     "tlf": "95303409",
-    "epost": "stianheimset@hotmail.com",
-    "linkedin": "www.google.no"
+    "email": "stianheimset@hotmail.com",
+    "linkedin": "www.linkedin.com/notsoyolo"
   },
 
   "experience": [
@@ -39,5 +39,17 @@
     }
   ],
 
-  "qualifications": ["Java", "JavaScript", "Pet Dog"]
+  "qualifications": [
+    "Java", 
+    "JavaScript", 
+    "Pet Dog"
+  ],
+
+  "interests": [
+    "Football", 
+    "Music", 
+    "Gaming", 
+    "Foods"
+  ]
+
 }
