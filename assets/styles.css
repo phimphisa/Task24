@@ -1,0 +1,43 @@
+.list-unstyled {
+    text-align: center;
+}
+
+.p-right {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#profilePic {
+    width:30%; 
+    height:30%;
+}
+
+#col-left {
+    background-color:#4c4c4c;
+}
+
+#col-right {
+
+}
+
+.profile-custom {
+    background-color: #ffa501;
+}
+
+.card-custom {
+    border-width: 0.1rem; 
+    margin: 2.5%;
+}
+
+.card-custom-left {
+    background-color: #4c4c4c;
+    border-color: white;
+}
+
+.card-custom-right {
+    border-color: #4c4c4c;
+}
+
+.card-body-custom {
+    padding:5px;
+}
