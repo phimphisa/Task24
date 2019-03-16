@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/styles.css">
-    <title>Take Me Home</title>
+    <title>{{firstName}} {{lastName}}</title>
 </head>
 
 <body>
     <div class="container-fluid row">
-        <div id="col-left" class="col-5">
+
+        <!-- LEFT COL -->
+        <div id="col-left" class="col-6">
 
             <!-- PROFILE -->
             <div class="col mt-5">
@@ -24,68 +27,145 @@
             </div>
 
             <!-- CONTACT -->
-            <div class="card card-custom card-custom-left">
+            <div class="card card-custom card-custom-left mt-4">
                 <div class="card-body card-body-custom">
                     <h5 class="font-weight-bold text-center text-white">CONTACT</h5>
                 </div>
             </div>
             <div class="col">
-                <p class="text-warning">Address</p>
-                <p class="text-white">{{contactInfo.address}}</p>
-                <p class="text-warning">Email</p>
-                <p class="text-white">{{contactInfo.email}}</p>
-                <p class="text-warning">Phone</p>
-                <p class="text-white">{{contactInfo.tlf}}</p>
-                <p class="text-warning">Web</p>
-                <p class="text-white">{{contactInfo.links.linkedin}}</p>
-                <p class="text-white">{{contactInfo.links.github}}</p>
+                <ul class="list-custom">
+                    <li class="text-warning">Date of birth <span class="mdi mdi-calendar-blank"></span></li>
+                    <li class="text-white">{{birthday}}</li>
+                </ul>
+
+                <ul class="list-custom">     
+                    <li class="text-warning">Address <span class="mdi mdi-map-marker"></span></li>
+                    <li class="text-white">{{contactInfo.address}}</li>
+                </ul>
+
+                <ul class="list-custom">
+                    <li class="text-warning">Email <span class="mdi mdi-email"></span></li>
+                    <li class="text-white">{{contactInfo.email}}</li>
+                </ul>
+
+                <ul class="list-custom">
+                    <li class="text-warning">Phone <span class="mdi mdi-phone"></span></li>
+                    <li class="text-white">{{contactInfo.tlf}}</li>
+                </ul>
+
+                <ul class="list-custom">
+                    <li class="text-warning">Web <span class="mdi mdi-laptop"></span></li>
+                    <li class="text-white">{{contactInfo.links.linkedin}}</li>
+                    <li class="text-white">{{contactInfo.links.github}}</li>
+                </ul>
             </div>
 
             <!-- QUALIFICATIONS -->
-            <div class="card card-custom card-custom-left">
+            <div class="card card-custom card-custom-left mt-4">
                 <div class="card-body card-body-custom">
                     <h5 class="font-weight-bold text-center text-white">QUALIFICATIONS</h5>
                 </div>
             </div>
             <div class="col">
                 <div>
-                    {{#each qualifications}}
-                    <p class="badge badge-secondary">{{this}}</p>
+                    {{#each qualification}}
+                    <p class="badge badge-warning">{{this}}</p>
                     {{/each}}
                 </div>
             </div>
 
             <!-- INTERESTS -->
-            <div class="card card-custom card-custom-left">
+            <div class="card card-custom card-custom-left mt-4">
                 <div class="card-body card-body-custom">
                     <h5 class="font-weight-bold text-center text-white">INTERESTS</h5>
                 </div>
             </div>
-            <div class="col">
+            <div class="col mb-4">
                 <div>
-                    {{#each interests}}
-                    <p class="badge badge-secondary">{{this}}</p>
+                    {{#each interest}}
+                    <p class="badge badge-warning">{{this}}</p>
                     {{/each}}
                 </div>
             </div>
 
         </div>
 
-        <!-- -->
+        <!-- MIDDLE COL -->
         <div id="col-middle" class="col-6">
-            <div class="card card-custom card-custom-right">
+            <!-- ABOUT ME -->
+            <div class="card card-custom card-custom-right mt-5">
                 <div class="card-body card-body-custom">
-                    <h3 class=" font-weight-bold text-center">About me</h3>
+                    <h5 class=" font-weight-bold text-center">ABOUT ME</h5>
                 </div>
             </div>
-            <p class="p-right">{{aboutMe}}
-            </p>
-            <div class="card card-custom card-custom-right">
+            <p class="p-right"> {{aboutMe}} </p>
+
+            <!-- EXPERIENCE -->
+            <div class="card card-custom card-custom-right mt-4">
                 <div class="card-body card-body-custom">
-                    <h3 class=" font-weight-bold text-center">Experience</h3>
+                    <h5 class=" font-weight-bold text-center">EXPERIENCES</h5>
                 </div>
             </div>
+
             {{#each experience}}
+                {{#if @index}}
+                    <hr class="mx-4">
+                {{/if}}
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Title</p>
+                </div>
+                <div class="col">
+                    <p> {{this.title}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Company</p>
+                </div>
+                <div class="col">
+                    <p> {{this.company}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Location</p>
+                </div>
+                <div class="col">
+                    <p> {{this.location}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Start Date</p>
+                </div>
+                <div class="col">
+                    <p> {{this.startDate}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">End Date</p>
+                </div>
+                <div class="col">
+                    <p> {{this.endDate}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Description</p>
+                </div>
+                <div class="col">
+                    <p> {{this.description}} </p>
+                </div>
+            </div>
+
+            <!--
             <ul class="list-unstyled">
                 <li><em>Title:</em> {{this.title}}</li>
                 <li><em>Company:</em> {{this.company}}</li>
@@ -95,13 +175,78 @@
                 <li><em>Description:</em> {{this.description}}</li>
                 <hr>
             </ul>
+            -->
             {{/each}}
-            <div class="card card-custom card-custom-right">
+
+            <!-- EDUCATION -->
+            <div class="card card-custom card-custom-right mt-4">
                 <div class="card-body card-body-custom">
-                    <h3 class=" font-weight-bold text-center">Education</h3>
+                    <h5 class=" font-weight-bold text-center">EDUCATIONS</h5>
                 </div>
             </div>
-            <p class="p-right">
+
+            {{#each education}}
+                {{#if @index}}
+                    <hr class="mx-4">
+                {{/if}}
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">School</p>
+                </div>
+                <div class="col">
+                    <p> {{this.school}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Degree</p>
+                </div>
+                <div class="col">
+                    <p> {{this.degree}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Field of Study</p>
+                </div>
+                <div class="col">
+                    <p> {{this.fieldOfStudy}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Start Year</p>
+                </div>
+                <div class="col">
+                    <p> {{this.startYear}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">End Year</p>
+                </div>
+                <div class="col">
+                    <p> {{this.endYear}} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary font-weight-bold ml-5">Description</p>
+                </div>
+                <div class="col mb-4">
+                    <p> {{this.description}} </p>
+                </div>
+            </div>
+
+            {{/each}}
+
+            <!-- 
+            <p class="p-right mb-4">
                 {{#each education}}
                 <ul class="list-unstyled">
                     <li><em>School:</em> {{this.school}}</li>
@@ -114,8 +259,16 @@
                 </ul>
                 {{/each}}
             </p>
+            -->
         </div>
 
+        <!-- RIGHT COL -->
+        <!-- 
+        <div id="col-right" class="col-2">
+
+        </div>
+        -->
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
