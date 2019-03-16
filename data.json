@@ -1,52 +1,79 @@
 {
-  "firstName": "Stian",
-  "lastName": "Notsoyolo",
-  "birthday": "25.02.1992",
-  "title": "Java Fullstack Developer",
-  "image": "http://www.suttonsilver.co.uk/wp-content/uploads/blog-harold-02.jpg",
-  "aboutMe": "Lorem ipsum dolor sit amet, an detracto omnesque offendit usu, ut timeam dissentiet vim, in sea possim labitur. Eum ei erant instructior, ei eum convenire delicatissimi. Ius paulo accusata persecuti at, pri ea liber delectus. Cu tota detracto insolens usu. Minim dolor quodsi ut quo. Ei eam commodo fabulas, pri ex exerci virtute, dicta diceret ei pri. Usu ei quaeque habemus efficiendi, admodum propriae assueverit eam an. At integre bonorum intellegat qui.",
+  "firstName": "Bean",
+  "lastName": "There",
+  "birthday": "16.06.1967",
+  "title": "Drunk Developer",
+  "image": "https://images.says.com/uploads/story_source/source_image/11666/b54c.jpeg",
+  "aboutMe": "Pommy ipsum skive a reet bobbydazzler I'd reet fancy a doing my nut in nutter baffled the lakes wellies, two weeks on't trot bugger full English breakast Bob's your uncle narky up the duff tip-top conkers. Supper scarper up the duff made a pig's ear of it have a gander clock round the earhole rambunctious, twiglets jellied eels bit of a Jack the lad know your onions a total jessie challenge you to a duel bit of a div, Shakespeare bargain Betty on a stag do jolly skive. Off with her head brainbox pork dripping queer as a clockwork orange for sooth gobsmacked crisps the chippy, Elementary my dear Watson good old fashioned knees up fake tan collywobbles flip flops. Duis aute irure dolor in reprehenderit in voluptate velit.",
 
   "contactInfo": {
-    "address": "Tullegata 1, 1339 Oslo",
-    "tlf": "95303409",
-    "email": "stianheimset@hotmail.com",
+    "address": "Underbridge 2, 0541 London",
+    "tlf": "10563904",
+    "email": "beanie.boss@gmail.com",
     "links": {
-      "linkedin": "www.linkedin.com/notsoyolo",
-      "github": "www.github.com"
+      "linkedin": "www.linkedin.com/mrbeanthere",
+      "github": "www.github.com/mrbean"
     }
   },
 
   "experience": [
     {
-      "title": "Java Fullstack Developer",
-      "company": "Experis Academy",
-      "location": "Oslo, Norway",
-      "startDate": "02.2019",
-      "endDate": "",
-      "description": "Very nice job"
+      "title": "Drunk Developer",
+      "company": "Goodle",
+      "location": "London, England",
+      "startDate": "01.2019",
+      "endDate": "-",
+      "description": "Bacon ipsum dolor amet ham hock ground round alcatra prosciutto. Pancetta biltong jowl andouille, salami short loin pork belly tail sausage spare ribs pork loin fatback ball tip pork short ribs. "
     },
     {
-      "title": "Programmer",
-      "company": "Exp Academy",
-      "location": "Oslo, Norway",
-      "startDate": "01.2015",
-      "endDate": "08.2015",
-      "description": "Very shite job"
+      "title": "Sale Manager",
+      "company": "ToyRush",
+      "location": "London, England",
+      "startDate": "04.2015",
+      "endDate": "11.2017",
+      "description": "Clear blue water onward and upward, productize the deliverables and focus on the bottom line for meeting assassin work not the long pole in my tent thought shower. Game plan can we take this offline."
     }
   ],
 
   "education": [
     {
-      "school": "Universitetet i Bergen",
+      "school": "University of Oxfood",
       "degree": "Bachelor's Degree",
-      "fieldOfStudy": "Drug Medicine",
-      "startYear": "2017",
-      "endYear": "2018",
-      "description": "produce drugs"
+      "fieldOfStudy": "History of Tart",
+      "startYear": "2010",
+      "endYear": "2013",
+      "description": "Toffee cake tart fruitcake. Oat cake liquorice apple pie tootsie roll fruitcake powder soufflé jelly-o. Cheesecake cookie cotton candy gingerbread marshmallow danish apple pie jujubes sweet roll."
     }
   ],
 
-  "qualification": ["Java", "JavaScript", "Pet Dog"],
+  "qualification": [
+    "Jar", 
+    "JarScript", 
+    "HTML", 
+    "CVV", 
+    "VooDoo", 
+    "Angelina", 
+    "Reaction", 
+    "Microscrope Wood", 
+    "Microscope Exam", 
+    "Photoshock",
+    "Active Director",
+    "Herbynate",
+    "Helloku"
+  ],
 
-  "interest": ["Football", "Music", "Gaming", "Foods"]
+  "interest": [
+    "Tesla",
+    "App Drunk",
+    "Art",
+    "Football", 
+    "Music", 
+    "Christmas",
+    "Gaming", 
+    "Foods",
+    "Fish and Chips",
+    "Bacon",
+    "Teddy Bear",
+    "Travel"
+  ]
 }

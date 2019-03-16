@@ -11,13 +11,14 @@
 }
 
 .p-right {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 #profilePic {
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
+  border: 3px solid whitesmoke;
 }
 
 #col-left {
@@ -56,4 +57,9 @@
 .card-body-custom {
   padding: 5px;
   margin-top: 8px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
 }
