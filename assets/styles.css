@@ -1,5 +1,13 @@
 .list-unstyled {
-  text-align: center;
+  list-style: none;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.list-custom {
+  list-style: none;
+  text-align: left;
+  margin-left: -40px;
 }
 
 .p-right {
@@ -13,6 +21,10 @@
 }
 
 #col-left {
+  background-color: #4c4c4c;
+}
+
+#col-right {
   background-color: #4c4c4c;
 }
 
@@ -42,4 +54,5 @@
 
 .card-body-custom {
   padding: 5px;
+  margin-top: 8px;
 }

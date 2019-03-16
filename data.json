@@ -46,7 +46,7 @@
     }
   ],
 
-  "qualifications": ["Java", "JavaScript", "Pet Dog"],
+  "qualification": ["Java", "JavaScript", "Pet Dog"],
 
-  "interests": ["Football", "Music", "Gaming", "Foods"]
+  "interest": ["Football", "Music", "Gaming", "Foods"]
 }
