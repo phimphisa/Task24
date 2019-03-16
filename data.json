@@ -1,35 +1,35 @@
 {
-  "firstName": "Bean",
-  "lastName": "There",
-  "birthday": "16.06.1967",
-  "title": "Drunk Developer",
-  "image": "https://images.says.com/uploads/story_source/source_image/11666/b54c.jpeg",
-  "aboutMe": "Pommy ipsum skive a reet bobbydazzler I'd reet fancy a doing my nut in nutter baffled the lakes wellies, two weeks on't trot bugger full English breakast Bob's your uncle narky up the duff tip-top conkers. Supper scarper up the duff made a pig's ear of it have a gander clock round the earhole rambunctious, twiglets jellied eels bit of a Jack the lad know your onions a total jessie challenge you to a duel bit of a div, Shakespeare bargain Betty on a stag do jolly skive. Off with her head brainbox pork dripping queer as a clockwork orange for sooth gobsmacked crisps the chippy, Elementary my dear Watson good old fashioned knees up fake tan collywobbles flip flops. Duis aute irure dolor in reprehenderit in voluptate velit.",
+  "firstName": "Phimphisa",
+  "lastName": "Nokham",
+  "birthday": "30.06.1994",
+  "title": "Fullstack Java Developer",
+  "image": "assets/profile.jpg",
+  "aboutMe": "Pommy ipsum skive a reet bobbydazzler I'd reet fancy a doing my nut in nutter baffled the lakes wellies, two weeks on't trot bugger full English breakast Bob's your uncle narky up the duff tip-top conkers. Supper scarper up the duff made a pig's ear of it have a gander clock round the earhole rambunctious, twiglets jellied eels bit of a Jack the lad know your onions a total jessie challenge you to a duel bit of a div, Shakespeare bargain Betty on a stag do jolly skive. Off with her head brainbox pork dripping queer as a clockwork orange for sooth gobsmacked crisps the chippy, Elementary my dear Watson good old fashioned knees up fake tan collywobbles flip flops. Duis aute irure dolor in reprehenderit in voluptate velit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 
   "contactInfo": {
-    "address": "Underbridge 2, 0541 London",
+    "address": "Hobbystreet 2, 0541 Oslo",
     "tlf": "10563904",
-    "email": "beanie.boss@gmail.com",
+    "email": "nokham@gmail.com",
     "links": {
-      "linkedin": "www.linkedin.com/mrbeanthere",
-      "github": "www.github.com/mrbean"
+      "linkedin": "www.linkedin.com/in/phimphisa-nokham/",
+      "github": "www.github.com/phimphisa"
     }
   },
 
   "experience": [
     {
-      "title": "Drunk Developer",
-      "company": "Goodle",
-      "location": "London, England",
-      "startDate": "01.2019",
+      "title": "Fullstack Java Developer",
+      "company": "Experis Academy",
+      "location": "Oslo, Norway",
+      "startDate": "02.2019",
       "endDate": "-",
       "description": "Bacon ipsum dolor amet ham hock ground round alcatra prosciutto. Pancetta biltong jowl andouille, salami short loin pork belly tail sausage spare ribs pork loin fatback ball tip pork short ribs. "
     },
     {
-      "title": "Sale Manager",
-      "company": "ToyRush",
-      "location": "London, England",
-      "startDate": "04.2015",
+      "title": "Assistant",
+      "company": "Goodle",
+      "location": "Oslo, Norway",
+      "startDate": "04.2016",
       "endDate": "11.2017",
       "description": "Clear blue water onward and upward, productize the deliverables and focus on the bottom line for meeting assassin work not the long pole in my tent thought shower. Game plan can we take this offline."
     }
@@ -37,43 +37,38 @@
 
   "education": [
     {
-      "school": "University of Oxfood",
+      "school": "OsloMet",
       "degree": "Bachelor's Degree",
-      "fieldOfStudy": "History of Tart",
-      "startYear": "2010",
-      "endYear": "2013",
+      "fieldOfStudy": "Software Engineering",
+      "startYear": "2015",
+      "endYear": "2018",
       "description": "Toffee cake tart fruitcake. Oat cake liquorice apple pie tootsie roll fruitcake powder soufflé jelly-o. Cheesecake cookie cotton candy gingerbread marshmallow danish apple pie jujubes sweet roll."
     }
   ],
 
   "qualification": [
-    "Jar", 
-    "JarScript", 
+    "Java", 
+    "JavaScript", 
     "HTML", 
-    "CVV", 
-    "VooDoo", 
-    "Angelina", 
-    "Reaction", 
-    "Microscrope Wood", 
-    "Microscope Exam", 
-    "Photoshock",
-    "Active Director",
-    "Herbynate",
-    "Helloku"
+    "CSS", 
+    "Vue", 
+    "Angular", 
+    "React", 
+    "Linux",
+    "PowerShell",
+    "Microsoft Office",
+    "Herbinate",
+    "Heroku",
+    "Spring",
+    "REST API"
   ],
 
   "interest": [
-    "Tesla",
-    "App Drunk",
-    "Art",
+    "App Development",
     "Football", 
     "Music", 
-    "Christmas",
     "Gaming", 
-    "Foods",
-    "Fish and Chips",
-    "Bacon",
-    "Teddy Bear",
+    "Food",
     "Travel"
   ]
 }
